@@ -17,8 +17,8 @@ development:
   #encoding: unicode
   database: cibi_development
   pool: 5
-  username: root
-  password: sk4scrappers
+  username: <%= ENV['MYSQL_USERNAME'] %> 
+  password: <%= ENV['MYSQL_PASSWORD'] %> 
   socket: <%= ENV['MYSQL_SOCKET'] || '/var/mysqld/mysqld.sock' %>  
 
   # Connect on a TCP socket. Omitted by default since the client uses a
