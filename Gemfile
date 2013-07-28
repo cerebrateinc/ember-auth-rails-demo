@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 3.2'
-gem 'pg',    '~> 0.14'
+gem 'mysql'
 
 group :assets do
   gem 'jquery-rails', '~> 2.2'
